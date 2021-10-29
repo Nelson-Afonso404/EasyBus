@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+#menuu li{
+    display: inline-block;
+    font-size: 1.2rem;
+    float: right;  
+}
+#menuu li a{
+    color: rgb(13, 84, 175);
+    text-decoration: none;
+    display: inline block;
+    padding: 15px;
+}
+#menuu li a:hover{
+    padding: 12px;
+    color:rgb(2, 2, 2)
+}
+
+#texto1{
+    margin-top: -380px;
+    text-align: left;
+    font-size: 2.5rem;
+    padding-left: 140px;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+#bola{
+    padding-top: 10px;
+}
+
+#canto{
+    position:fixed;
+	right:0.1%;
+	top:32%;
+    display: inline block;
+    z-index: -1;
+    
+  
+}
+#texto2{
+   
+   font-size: 1.5rem;
+   position: flex;
+   padding-left: 950px;
+   color:white;
+   text-shadow: 0.1em 0.1em 0.2em black
+
+}
+.aaa{
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+.butao{
+    width: 50%;
+    height: 45px;
+    cursor: pointer;
+    background:white;
+    color: rgb(75, 72, 72);
+    border: 0;
+    border-radius: 20px;
+    font-size: 21px;
+    
+}
+.butao:hover{
+    background-color:rgb(143, 140, 140);;
+    transition: 1s;
+
+
+}
+.icone{
+    position: absolute;
+    padding-top: -600px;
+    top: 0.1%;
+    border:20px;
+    border-radius: 60px;
+    background-color:rgb(52, 107, 151);
+}
+.icone:hover{
+    background-color: rgb(233, 234, 236);
+    transition: 1s;
+}
+.desenho{
+    position: absolute;
+    float:right;
+    top: 80%;
+    left: 1200px;
+}
